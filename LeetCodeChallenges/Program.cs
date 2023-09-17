@@ -96,4 +96,24 @@
 //    }
 //}
 
+// 2° Solution 
+
+//public class Solution
+//{
+//    public int RemoveDuplicates(int[] nums)
+//    {
+//        if (nums.Length < 3) return nums.Length;
+//        int size = 2;
+//        for (int i = 2; i < nums.Length; i++)
+//        {
+//            if (nums[i] != nums[size - 2])
+//            {
+//                nums[size++] = nums[i];
+//            }
+//        }
+//        return size;
+
+//    }
+//}
+
 #endregion
