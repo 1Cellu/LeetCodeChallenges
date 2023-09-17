@@ -63,3 +63,37 @@
 //    }
 //}
 #endregion
+
+
+#region 80. Remove Duplicates from Sorted Array II
+//public class Solution
+//{
+//    public int RemoveDuplicates(int[] nums)
+//    {
+//        Dictionary<int, int> elementCount = new Dictionary<int, int>();
+
+//        List<int> newArray = new List<int>();
+
+//        foreach (int element in nums)
+//        {
+//            if (elementCount.ContainsKey(element))
+//            {
+//                elementCount[element]++;
+//                if (elementCount[element] <= 2)
+//                {
+//                    newArray.Add(element);
+//                }
+//            }
+//            else
+//            {
+//                elementCount[element] = 1;
+//                newArray.Add(element);
+//            }
+//        }
+
+//        nums = newArray.ToArray();
+//        return nums.Length;
+//    }
+//}
+
+#endregion
