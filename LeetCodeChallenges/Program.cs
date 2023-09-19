@@ -1,6 +1,6 @@
 ﻿using LeetCodeChallenges.Challenges;
 
-int[] nums = {1, 2, 3, 4, 5, 6, 7};
+int[] nums = { 2, 1, 4 };
 
-var teste = new _189_Rotate_Array();
-teste.Rotate(nums, 3);
+var teste = new _121_Best_Time_to_Buy_and_Sell_Stock();
+teste.MaxProfit(nums);
